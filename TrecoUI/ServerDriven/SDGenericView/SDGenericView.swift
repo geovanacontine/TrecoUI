@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftUIPullToRefresh
 
 struct SDGenericView: View {
     
@@ -30,7 +31,13 @@ struct SDGenericView: View {
                 if controller.isLoading {
                     SDLoadingView()
                 } else {
-                    ScrollView(scrollAxes, showsIndicators: false) {
+                    RefreshableScrollView(showsIndicators: false) {
+                        await controller.refreshView()
+                    } progress: { state in
+                        RefreshActivityIndicator(isAnimating: state == .loading) {
+                                 $0.hidesWhenStopped = false
+                             }
+                    } content: {
                         HStack {
                             SpacerView(horizontal: .xs)
                             LazyVStack {
@@ -42,6 +49,19 @@ struct SDGenericView: View {
                             SpacerView(horizontal: .xs)
                         }
                     }
+
+//                    ScrollView(scrollAxes, showsIndicators: false) {
+//                        HStack {
+//                            SpacerView(horizontal: .xs)
+//                            LazyVStack {
+//                                SpacerView(vertical: .xs)
+//                                ForEach(controller.view?.body ?? [], id: \.tag) { component in
+//                                    component.render()
+//                                }
+//                            }
+//                            SpacerView(horizontal: .xs)
+//                        }
+//                    }
                 }
             }
         }

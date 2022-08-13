@@ -24,7 +24,7 @@
 		20132E0E28A805D40072773E /* SDViewSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20132E0928A805D40072773E /* SDViewSettings.swift */; };
 		20132E0F28A805D40072773E /* SDComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20132E0A28A805D40072773E /* SDComponent.swift */; };
 		20132E1428A807490072773E /* SDComponentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20132E1328A807490072773E /* SDComponentType.swift */; };
-		20132E1928A80CC90072773E /* WLNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20132E1828A80CC90072773E /* WLNetwork.swift */; };
+		20132E1928A80CC90072773E /* SDNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20132E1828A80CC90072773E /* SDNetwork.swift */; };
 		20132E1B28A80EF50072773E /* SDLocalViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20132E1A28A80EF50072773E /* SDLocalViews.swift */; };
 		20132E1E28A80F900072773E /* notFound.json in Resources */ = {isa = PBXBuildFile; fileRef = 20132E1D28A80F900072773E /* notFound.json */; };
 		20132E2028A810CD0072773E /* SDLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20132E1F28A810CD0072773E /* SDLoadingView.swift */; };
@@ -35,6 +35,31 @@
 		20132E2E28A81BBB0072773E /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20132E2A28A81BBB0072773E /* Montserrat-Bold.ttf */; };
 		20132E2F28A81BBB0072773E /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20132E2B28A81BBB0072773E /* Montserrat-SemiBold.ttf */; };
 		20132E3028A81BBB0072773E /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20132E2C28A81BBB0072773E /* Montserrat-Regular.ttf */; };
+		201E634228A847A300CD89D1 /* TrecoProductSetupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201E634128A847A300CD89D1 /* TrecoProductSetupApp.swift */; };
+		201E634428A847A300CD89D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201E634328A847A300CD89D1 /* ContentView.swift */; };
+		201E634628A847A500CD89D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201E634528A847A500CD89D1 /* Assets.xcassets */; };
+		201E634928A847A500CD89D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201E634828A847A500CD89D1 /* Preview Assets.xcassets */; };
+		201E635B28A848D900CD89D1 /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2010062428A7DD100095E327 /* Border.swift */; };
+		201E635C28A848D900CD89D1 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2010062C28A7DF3E0095E327 /* Fonts.swift */; };
+		201E635D28A848D900CD89D1 /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2010062828A7DE420095E327 /* Shadow.swift */; };
+		201E635E28A848D900CD89D1 /* TokensManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2010062228A7DC390095E327 /* TokensManager.swift */; };
+		201E635F28A848D900CD89D1 /* Opacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2010062628A7DE190095E327 /* Opacity.swift */; };
+		201E636028A848D900CD89D1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2031D8F928A7D6D30079F62B /* Colors.swift */; };
+		201E636128A848D900CD89D1 /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2010062A28A7DEDA0095E327 /* Spacing.swift */; };
+		201E636228A848DC00CD89D1 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20132E2C28A81BBB0072773E /* Montserrat-Regular.ttf */; };
+		201E636328A848DC00CD89D1 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20132E2B28A81BBB0072773E /* Montserrat-SemiBold.ttf */; };
+		201E636428A848DC00CD89D1 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20132E2928A81BBB0072773E /* Montserrat-Light.ttf */; };
+		201E636528A848DC00CD89D1 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20132E2A28A81BBB0072773E /* Montserrat-Bold.ttf */; };
+		201E637A28A84A2E00CD89D1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20132DFD28A7F8540072773E /* Extensions.swift */; };
+		201E637C28A84A3D00CD89D1 /* SDComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20132E0A28A805D40072773E /* SDComponent.swift */; };
+		201E637F28A84C7800CD89D1 /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = 201E637E28A84C7800CD89D1 /* Swifter */; };
+		201E638128A8505400CD89D1 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201E638028A8505400CD89D1 /* ServerManager.swift */; };
+		201E638428A8512500CD89D1 /* home.json in Resources */ = {isa = PBXBuildFile; fileRef = 201E638328A8512500CD89D1 /* home.json */; };
+		201E638628A8560800CD89D1 /* SDServerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201E638528A8560800CD89D1 /* SDServerSettings.swift */; };
+		201E638728A8562200CD89D1 /* SDServerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201E638528A8560800CD89D1 /* SDServerSettings.swift */; };
+		201E638A28A85A7100CD89D1 /* SwiftUIPullToRefresh in Frameworks */ = {isa = PBXBuildFile; productRef = 201E638928A85A7100CD89D1 /* SwiftUIPullToRefresh */; };
+		201E638C28A85CB300CD89D1 /* Task+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201E638B28A85CB300CD89D1 /* Task+Extensions.swift */; };
+		201E638E28A85DDB00CD89D1 /* tokens.json in Resources */ = {isa = PBXBuildFile; fileRef = 2010063228A7E3310095E327 /* tokens.json */; };
 		202BEA8628A6F7C200633C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 202BEA8528A6F7C200633C64 /* Assets.xcassets */; };
 		202BEA8928A6F7C200633C64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 202BEA8828A6F7C200633C64 /* Preview Assets.xcassets */; };
 		2031D8FA28A7D6D30079F62B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2031D8F928A7D6D30079F62B /* Colors.swift */; };
@@ -61,7 +86,7 @@
 		20132E0928A805D40072773E /* SDViewSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDViewSettings.swift; sourceTree = "<group>"; };
 		20132E0A28A805D40072773E /* SDComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDComponent.swift; sourceTree = "<group>"; };
 		20132E1328A807490072773E /* SDComponentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDComponentType.swift; sourceTree = "<group>"; };
-		20132E1828A80CC90072773E /* WLNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WLNetwork.swift; sourceTree = "<group>"; };
+		20132E1828A80CC90072773E /* SDNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDNetwork.swift; sourceTree = "<group>"; };
 		20132E1A28A80EF50072773E /* SDLocalViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDLocalViews.swift; sourceTree = "<group>"; };
 		20132E1D28A80F900072773E /* notFound.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = notFound.json; sourceTree = "<group>"; };
 		20132E1F28A810CD0072773E /* SDLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDLoadingView.swift; sourceTree = "<group>"; };
@@ -73,6 +98,16 @@
 		20132E2A28A81BBB0072773E /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		20132E2B28A81BBB0072773E /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		20132E2C28A81BBB0072773E /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		201E633F28A847A300CD89D1 /* TrecoProductSetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrecoProductSetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		201E634128A847A300CD89D1 /* TrecoProductSetupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrecoProductSetupApp.swift; sourceTree = "<group>"; };
+		201E634328A847A300CD89D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		201E634528A847A500CD89D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		201E634828A847A500CD89D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		201E634A28A847A500CD89D1 /* TrecoProductSetup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrecoProductSetup.entitlements; sourceTree = "<group>"; };
+		201E638028A8505400CD89D1 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
+		201E638328A8512500CD89D1 /* home.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = home.json; sourceTree = "<group>"; };
+		201E638528A8560800CD89D1 /* SDServerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDServerSettings.swift; sourceTree = "<group>"; };
+		201E638B28A85CB300CD89D1 /* Task+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+Extensions.swift"; sourceTree = "<group>"; };
 		202BEA7E28A6F7C000633C64 /* TrecoUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrecoUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		202BEA8528A6F7C200633C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		202BEA8828A6F7C200633C64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -83,10 +118,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		201E633C28A847A300CD89D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201E637F28A84C7800CD89D1 /* Swifter in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		202BEA7B28A6F7C000633C64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				201E638A28A85A7100CD89D1 /* SwiftUIPullToRefresh in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +193,7 @@
 			children = (
 				20132DFD28A7F8540072773E /* Extensions.swift */,
 				20132E2628A816120072773E /* VisibleModifier.swift */,
+				201E638B28A85CB300CD89D1 /* Task+Extensions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -156,7 +201,8 @@
 		20132E1728A80CC00072773E /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				20132E1828A80CC90072773E /* WLNetwork.swift */,
+				20132E1828A80CC90072773E /* SDNetwork.swift */,
+				201E638528A8560800CD89D1 /* SDServerSettings.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -190,10 +236,57 @@
 			path = Montserrat;
 			sourceTree = "<group>";
 		};
+		201E634028A847A300CD89D1 /* TrecoProductSetup */ = {
+			isa = PBXGroup;
+			children = (
+				201E634128A847A300CD89D1 /* TrecoProductSetupApp.swift */,
+				201E639028A8609100CD89D1 /* Server */,
+				201E638F28A8608A00CD89D1 /* UI */,
+				201E638228A8511000CD89D1 /* Files */,
+				201E634528A847A500CD89D1 /* Assets.xcassets */,
+				201E634A28A847A500CD89D1 /* TrecoProductSetup.entitlements */,
+				201E634728A847A500CD89D1 /* Preview Content */,
+			);
+			path = TrecoProductSetup;
+			sourceTree = "<group>";
+		};
+		201E634728A847A500CD89D1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				201E634828A847A500CD89D1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		201E638228A8511000CD89D1 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				201E638328A8512500CD89D1 /* home.json */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		201E638F28A8608A00CD89D1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				201E634328A847A300CD89D1 /* ContentView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		201E639028A8609100CD89D1 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				201E638028A8505400CD89D1 /* ServerManager.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
 		202BEA7528A6F7C000633C64 = {
 			isa = PBXGroup;
 			children = (
 				202BEA8028A6F7C000633C64 /* TrecoUI */,
+				201E634028A847A300CD89D1 /* TrecoProductSetup */,
 				202BEA7F28A6F7C000633C64 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -202,6 +295,7 @@
 			isa = PBXGroup;
 			children = (
 				202BEA7E28A6F7C000633C64 /* TrecoUI.app */,
+				201E633F28A847A300CD89D1 /* TrecoProductSetup.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -274,6 +368,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		201E633E28A847A300CD89D1 /* TrecoProductSetup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201E634D28A847A500CD89D1 /* Build configuration list for PBXNativeTarget "TrecoProductSetup" */;
+			buildPhases = (
+				201E633B28A847A300CD89D1 /* Sources */,
+				201E633C28A847A300CD89D1 /* Frameworks */,
+				201E633D28A847A300CD89D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrecoProductSetup;
+			packageProductDependencies = (
+				201E637E28A84C7800CD89D1 /* Swifter */,
+			);
+			productName = TrecoProductSetup;
+			productReference = 201E633F28A847A300CD89D1 /* TrecoProductSetup.app */;
+			productType = "com.apple.product-type.application";
+		};
 		202BEA7D28A6F7C000633C64 /* TrecoUI */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 202BEA8C28A6F7C200633C64 /* Build configuration list for PBXNativeTarget "TrecoUI" */;
@@ -287,6 +401,9 @@
 			dependencies = (
 			);
 			name = TrecoUI;
+			packageProductDependencies = (
+				201E638928A85A7100CD89D1 /* SwiftUIPullToRefresh */,
+			);
 			productName = TrecoUI;
 			productReference = 202BEA7E28A6F7C000633C64 /* TrecoUI.app */;
 			productType = "com.apple.product-type.application";
@@ -301,6 +418,9 @@
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					201E633E28A847A300CD89D1 = {
+						CreatedOnToolsVersion = 13.1;
+					};
 					202BEA7D28A6F7C000633C64 = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -315,16 +435,36 @@
 				Base,
 			);
 			mainGroup = 202BEA7528A6F7C000633C64;
+			packageReferences = (
+				201E637D28A84C7800CD89D1 /* XCRemoteSwiftPackageReference "swifter" */,
+				201E638828A85A7100CD89D1 /* XCRemoteSwiftPackageReference "swiftui-pull-to-refresh" */,
+			);
 			productRefGroup = 202BEA7F28A6F7C000633C64 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				202BEA7D28A6F7C000633C64 /* TrecoUI */,
+				201E633E28A847A300CD89D1 /* TrecoProductSetup */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		201E633D28A847A300CD89D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201E636428A848DC00CD89D1 /* Montserrat-Light.ttf in Resources */,
+				201E636228A848DC00CD89D1 /* Montserrat-Regular.ttf in Resources */,
+				201E636528A848DC00CD89D1 /* Montserrat-Bold.ttf in Resources */,
+				201E634928A847A500CD89D1 /* Preview Assets.xcassets in Resources */,
+				201E636328A848DC00CD89D1 /* Montserrat-SemiBold.ttf in Resources */,
+				201E638428A8512500CD89D1 /* home.json in Resources */,
+				201E634628A847A500CD89D1 /* Assets.xcassets in Resources */,
+				201E638E28A85DDB00CD89D1 /* tokens.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		202BEA7C28A6F7C000633C64 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -343,10 +483,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		201E633B28A847A300CD89D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201E635C28A848D900CD89D1 /* Fonts.swift in Sources */,
+				201E636028A848D900CD89D1 /* Colors.swift in Sources */,
+				201E638728A8562200CD89D1 /* SDServerSettings.swift in Sources */,
+				201E637C28A84A3D00CD89D1 /* SDComponent.swift in Sources */,
+				201E636128A848D900CD89D1 /* Spacing.swift in Sources */,
+				201E634428A847A300CD89D1 /* ContentView.swift in Sources */,
+				201E635D28A848D900CD89D1 /* Shadow.swift in Sources */,
+				201E637A28A84A2E00CD89D1 /* Extensions.swift in Sources */,
+				201E635F28A848D900CD89D1 /* Opacity.swift in Sources */,
+				201E635B28A848D900CD89D1 /* Border.swift in Sources */,
+				201E634228A847A300CD89D1 /* TrecoProductSetupApp.swift in Sources */,
+				201E638128A8505400CD89D1 /* ServerManager.swift in Sources */,
+				201E635E28A848D900CD89D1 /* TokensManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		202BEA7A28A6F7C000633C64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				201E638628A8560800CD89D1 /* SDServerSettings.swift in Sources */,
 				20132E0028A7FDB30072773E /* RemoteImageView.swift in Sources */,
 				2010062528A7DD100095E327 /* Border.swift in Sources */,
 				20132E2528A815450072773E /* SDStatusBarStyle.swift in Sources */,
@@ -360,6 +521,7 @@
 				20132E0D28A805D40072773E /* SDNavigationBar.swift in Sources */,
 				2010062728A7DE190095E327 /* Opacity.swift in Sources */,
 				20132E1428A807490072773E /* SDComponentType.swift in Sources */,
+				201E638C28A85CB300CD89D1 /* Task+Extensions.swift in Sources */,
 				2031D8FA28A7D6D30079F62B /* Colors.swift in Sources */,
 				2010062B28A7DEDA0095E327 /* Spacing.swift in Sources */,
 				20132DFE28A7F8540072773E /* Extensions.swift in Sources */,
@@ -369,7 +531,7 @@
 				20132E0328A804A60072773E /* SDGenericViewController.swift in Sources */,
 				20D101AB28A7EE290094A0F9 /* AppDelegate.swift in Sources */,
 				20132E0B28A805D40072773E /* SDAnyComponent.swift in Sources */,
-				20132E1928A80CC90072773E /* WLNetwork.swift in Sources */,
+				20132E1928A80CC90072773E /* SDNetwork.swift in Sources */,
 				20132E0428A804A60072773E /* SDGenericView.swift in Sources */,
 				20132E0E28A805D40072773E /* SDViewSettings.swift in Sources */,
 				2010062D28A7DF3E0095E327 /* Fonts.swift in Sources */,
@@ -379,6 +541,64 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		201E634B28A847A500CD89D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TrecoProductSetup/TrecoProductSetup.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrecoProductSetup/Preview Content\"";
+				DEVELOPMENT_TEAM = FS3B5ULP9R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = continegeovana.TrecoProductSetup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		201E634C28A847A500CD89D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TrecoProductSetup/TrecoProductSetup.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrecoProductSetup/Preview Content\"";
+				DEVELOPMENT_TEAM = FS3B5ULP9R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = continegeovana.TrecoProductSetup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		202BEA8A28A6F7C200633C64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -560,6 +780,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		201E634D28A847A500CD89D1 /* Build configuration list for PBXNativeTarget "TrecoProductSetup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201E634B28A847A500CD89D1 /* Debug */,
+				201E634C28A847A500CD89D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		202BEA7928A6F7C000633C64 /* Build configuration list for PBXProject "TrecoUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -579,6 +808,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		201E637D28A84C7800CD89D1 /* XCRemoteSwiftPackageReference "swifter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/httpswift/swifter";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		201E638828A85A7100CD89D1 /* XCRemoteSwiftPackageReference "swiftui-pull-to-refresh" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/globulus/swiftui-pull-to-refresh";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		201E637E28A84C7800CD89D1 /* Swifter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 201E637D28A84C7800CD89D1 /* XCRemoteSwiftPackageReference "swifter" */;
+			productName = Swifter;
+		};
+		201E638928A85A7100CD89D1 /* SwiftUIPullToRefresh */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 201E638828A85A7100CD89D1 /* XCRemoteSwiftPackageReference "swiftui-pull-to-refresh" */;
+			productName = SwiftUIPullToRefresh;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 202BEA7628A6F7C000633C64 /* Project object */;
 }

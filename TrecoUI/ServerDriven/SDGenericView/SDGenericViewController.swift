@@ -6,7 +6,6 @@
 //
 
 import Combine
-import UIKit
 
 final class SDGenericViewController: ObservableObject {
     
@@ -30,5 +29,11 @@ final class SDGenericViewController: ObservableObject {
         isLoading = true
         view = await network.getView(named: viewName, type: .remote)
         isLoading = false
+    }
+    
+    @MainActor
+    func refreshView() async {
+        try? await Task.sleep(seconds: 1)
+        view = await network.getView(named: viewName, type: .remote)
     }
 }

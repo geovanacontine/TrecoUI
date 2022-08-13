@@ -5,7 +5,6 @@
 //  Created by Pedro Contine on 13/08/22.
 //
 
-import UIKit
 import SwiftUI
 
 public enum Colors: String, Decodable {

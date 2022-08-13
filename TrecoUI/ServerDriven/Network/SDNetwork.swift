@@ -30,7 +30,18 @@ final class SDNetwork: SDNetworkProtocol {
 
 extension SDNetwork {
     private func getRemoteView(named viewName: String) async -> SDView? {
-        getLocalView(named: viewName)
+        guard let url = URL(string: SDServerSettings.baseEndpoint.appending(viewName)) else {
+            return nil
+        }
+        
+        let request = URLRequest(url: url)
+        
+        do {
+            let (data, _) = try await URLSession.shared.data(for: request)
+            return try JSONDecoder().decode(SDView.self, from: data)
+        } catch {
+            return nil
+        }
     }
     
     private func getLocalView(named viewName: String) -> SDView? {

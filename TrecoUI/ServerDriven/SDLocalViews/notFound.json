@@ -1,15 +1,6 @@
 {
     "header": {
-        "title": "White Label"
+        "title": "404"
     },
-    "body": [
-        {
-            "type": "SDRemoteImageComponent",
-            "tag": "image",
-            "data": {
-                "url": "https://static-images.ifood.com.br/image/upload/t_high,q_100/webapp/landing/landing-banner-1.png",
-                "estimatedHeight": 150,
-            }
-        }
-    ]
+    "body": []
 }

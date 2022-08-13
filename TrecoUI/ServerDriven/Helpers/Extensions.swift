@@ -26,5 +26,3 @@ extension View {
     else { self }
   }
 }
-
-

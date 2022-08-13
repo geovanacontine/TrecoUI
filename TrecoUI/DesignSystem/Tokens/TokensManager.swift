@@ -5,7 +5,8 @@
 //  Created by Pedro Contine on 13/08/22.
 //
 
-import UIKit
+import Foundation
+import CoreGraphics
 
 public class TokensManager {
     public static let shared = TokensManager()

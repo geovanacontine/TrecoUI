@@ -5,7 +5,7 @@
 //  Created by Pedro Contine on 13/08/22.
 //
 
-import UIKit
+import CoreGraphics
 
 public enum Opacity: String {
     case none
