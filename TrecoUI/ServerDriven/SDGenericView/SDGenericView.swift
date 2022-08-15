@@ -34,9 +34,10 @@ struct SDGenericView: View {
                     RefreshableScrollView(showsIndicators: false) {
                         await controller.refreshView()
                     } progress: { state in
-                        RefreshActivityIndicator(isAnimating: state == .loading) {
-                                 $0.hidesWhenStopped = false
-                             }
+                        RefreshActivityIndicator(isAnimating: state == .loading) { view in
+                            view.color = UIColor(Colors.brandPure.color)
+                            view.hidesWhenStopped = false
+                        }
                     } content: {
                         HStack {
                             SpacerView(horizontal: .xs)
@@ -49,19 +50,6 @@ struct SDGenericView: View {
                             SpacerView(horizontal: .xs)
                         }
                     }
-
-//                    ScrollView(scrollAxes, showsIndicators: false) {
-//                        HStack {
-//                            SpacerView(horizontal: .xs)
-//                            LazyVStack {
-//                                SpacerView(vertical: .xs)
-//                                ForEach(controller.view?.body ?? [], id: \.tag) { component in
-//                                    component.render()
-//                                }
-//                            }
-//                            SpacerView(horizontal: .xs)
-//                        }
-//                    }
                 }
             }
         }

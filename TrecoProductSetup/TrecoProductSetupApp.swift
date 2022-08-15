@@ -10,6 +10,8 @@ import SwiftUI
 @main
 struct TrecoProductSetupApp: App {
     
+    private let serverManager = ServerManager()
+    
     init() {
         TokensManager.shared.setTheme(fromJson: "tokens")
     }
@@ -17,8 +19,10 @@ struct TrecoProductSetupApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .preferredColorScheme(.light)
-                .frame(minWidth: 400, maxWidth: 800, minHeight: 300, maxHeight: 500)
+                .accentColor(Colors.brandPure.color)
+                .frame(minWidth: 400, minHeight: 300)
+                .environmentObject(serverManager)
+                .environmentObject(FileViewManager.shared)
         }
     }
 }

@@ -54,7 +54,6 @@
 		201E637C28A84A3D00CD89D1 /* SDComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20132E0A28A805D40072773E /* SDComponent.swift */; };
 		201E637F28A84C7800CD89D1 /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = 201E637E28A84C7800CD89D1 /* Swifter */; };
 		201E638128A8505400CD89D1 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201E638028A8505400CD89D1 /* ServerManager.swift */; };
-		201E638428A8512500CD89D1 /* home.json in Resources */ = {isa = PBXBuildFile; fileRef = 201E638328A8512500CD89D1 /* home.json */; };
 		201E638628A8560800CD89D1 /* SDServerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201E638528A8560800CD89D1 /* SDServerSettings.swift */; };
 		201E638728A8562200CD89D1 /* SDServerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201E638528A8560800CD89D1 /* SDServerSettings.swift */; };
 		201E638A28A85A7100CD89D1 /* SwiftUIPullToRefresh in Frameworks */ = {isa = PBXBuildFile; productRef = 201E638928A85A7100CD89D1 /* SwiftUIPullToRefresh */; };
@@ -63,9 +62,13 @@
 		202BEA8628A6F7C200633C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 202BEA8528A6F7C200633C64 /* Assets.xcassets */; };
 		202BEA8928A6F7C200633C64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 202BEA8828A6F7C200633C64 /* Preview Assets.xcassets */; };
 		2031D8FA28A7D6D30079F62B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2031D8F928A7D6D30079F62B /* Colors.swift */; };
+		20654F3828A93F8300F1699E /* FileDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20654F3728A93F8300F1699E /* FileDetailView.swift */; };
+		20654F3A28A963D900F1699E /* FileViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20654F3928A963D900F1699E /* FileViewManager.swift */; };
 		20D101A928A7EC900094A0F9 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D101A828A7EC900094A0F9 /* Coordinator.swift */; };
 		20D101AB28A7EE290094A0F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D101AA28A7EE290094A0F9 /* AppDelegate.swift */; };
 		20D101AD28A7EF940094A0F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D101AC28A7EF940094A0F9 /* SceneDelegate.swift */; };
+		20D73DA928A87914002FF4CA /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D73DA828A87914002FF4CA /* MenuView.swift */; };
+		20D73DAB28A87D29002FF4CA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D73DAA28A87D29002FF4CA /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,23 +101,26 @@
 		20132E2A28A81BBB0072773E /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		20132E2B28A81BBB0072773E /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		20132E2C28A81BBB0072773E /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
-		201E633F28A847A300CD89D1 /* TrecoProductSetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrecoProductSetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		201E633F28A847A300CD89D1 /* ProductSetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductSetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		201E634128A847A300CD89D1 /* TrecoProductSetupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrecoProductSetupApp.swift; sourceTree = "<group>"; };
 		201E634328A847A300CD89D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		201E634528A847A500CD89D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		201E634828A847A500CD89D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		201E634A28A847A500CD89D1 /* TrecoProductSetup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrecoProductSetup.entitlements; sourceTree = "<group>"; };
 		201E638028A8505400CD89D1 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
-		201E638328A8512500CD89D1 /* home.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = home.json; sourceTree = "<group>"; };
 		201E638528A8560800CD89D1 /* SDServerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDServerSettings.swift; sourceTree = "<group>"; };
 		201E638B28A85CB300CD89D1 /* Task+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+Extensions.swift"; sourceTree = "<group>"; };
 		202BEA7E28A6F7C000633C64 /* TrecoUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrecoUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		202BEA8528A6F7C200633C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		202BEA8828A6F7C200633C64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2031D8F928A7D6D30079F62B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		20654F3728A93F8300F1699E /* FileDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDetailView.swift; sourceTree = "<group>"; };
+		20654F3928A963D900F1699E /* FileViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewManager.swift; sourceTree = "<group>"; };
 		20D101A828A7EC900094A0F9 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		20D101AA28A7EE290094A0F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20D101AC28A7EF940094A0F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		20D73DA828A87914002FF4CA /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		20D73DAA28A87D29002FF4CA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,7 +248,6 @@
 				201E634128A847A300CD89D1 /* TrecoProductSetupApp.swift */,
 				201E639028A8609100CD89D1 /* Server */,
 				201E638F28A8608A00CD89D1 /* UI */,
-				201E638228A8511000CD89D1 /* Files */,
 				201E634528A847A500CD89D1 /* Assets.xcassets */,
 				201E634A28A847A500CD89D1 /* TrecoProductSetup.entitlements */,
 				201E634728A847A500CD89D1 /* Preview Content */,
@@ -258,18 +263,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		201E638228A8511000CD89D1 /* Files */ = {
-			isa = PBXGroup;
-			children = (
-				201E638328A8512500CD89D1 /* home.json */,
-			);
-			path = Files;
-			sourceTree = "<group>";
-		};
 		201E638F28A8608A00CD89D1 /* UI */ = {
 			isa = PBXGroup;
 			children = (
 				201E634328A847A300CD89D1 /* ContentView.swift */,
+				20D73DA828A87914002FF4CA /* MenuView.swift */,
+				20654F3728A93F8300F1699E /* FileDetailView.swift */,
+				20D73DAA28A87D29002FF4CA /* SettingsView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -278,6 +278,7 @@
 			isa = PBXGroup;
 			children = (
 				201E638028A8505400CD89D1 /* ServerManager.swift */,
+				20654F3928A963D900F1699E /* FileViewManager.swift */,
 			);
 			path = Server;
 			sourceTree = "<group>";
@@ -295,7 +296,7 @@
 			isa = PBXGroup;
 			children = (
 				202BEA7E28A6F7C000633C64 /* TrecoUI.app */,
-				201E633F28A847A300CD89D1 /* TrecoProductSetup.app */,
+				201E633F28A847A300CD89D1 /* ProductSetup.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -368,9 +369,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		201E633E28A847A300CD89D1 /* TrecoProductSetup */ = {
+		201E633E28A847A300CD89D1 /* ProductSetup */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 201E634D28A847A500CD89D1 /* Build configuration list for PBXNativeTarget "TrecoProductSetup" */;
+			buildConfigurationList = 201E634D28A847A500CD89D1 /* Build configuration list for PBXNativeTarget "ProductSetup" */;
 			buildPhases = (
 				201E633B28A847A300CD89D1 /* Sources */,
 				201E633C28A847A300CD89D1 /* Frameworks */,
@@ -380,12 +381,12 @@
 			);
 			dependencies = (
 			);
-			name = TrecoProductSetup;
+			name = ProductSetup;
 			packageProductDependencies = (
 				201E637E28A84C7800CD89D1 /* Swifter */,
 			);
 			productName = TrecoProductSetup;
-			productReference = 201E633F28A847A300CD89D1 /* TrecoProductSetup.app */;
+			productReference = 201E633F28A847A300CD89D1 /* ProductSetup.app */;
 			productType = "com.apple.product-type.application";
 		};
 		202BEA7D28A6F7C000633C64 /* TrecoUI */ = {
@@ -416,7 +417,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					201E633E28A847A300CD89D1 = {
 						CreatedOnToolsVersion = 13.1;
@@ -444,7 +445,7 @@
 			projectRoot = "";
 			targets = (
 				202BEA7D28A6F7C000633C64 /* TrecoUI */,
-				201E633E28A847A300CD89D1 /* TrecoProductSetup */,
+				201E633E28A847A300CD89D1 /* ProductSetup */,
 			);
 		};
 /* End PBXProject section */
@@ -459,7 +460,6 @@
 				201E636528A848DC00CD89D1 /* Montserrat-Bold.ttf in Resources */,
 				201E634928A847A500CD89D1 /* Preview Assets.xcassets in Resources */,
 				201E636328A848DC00CD89D1 /* Montserrat-SemiBold.ttf in Resources */,
-				201E638428A8512500CD89D1 /* home.json in Resources */,
 				201E634628A847A500CD89D1 /* Assets.xcassets in Resources */,
 				201E638E28A85DDB00CD89D1 /* tokens.json in Resources */,
 			);
@@ -487,6 +487,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20D73DAB28A87D29002FF4CA /* SettingsView.swift in Sources */,
 				201E635C28A848D900CD89D1 /* Fonts.swift in Sources */,
 				201E636028A848D900CD89D1 /* Colors.swift in Sources */,
 				201E638728A8562200CD89D1 /* SDServerSettings.swift in Sources */,
@@ -494,8 +495,11 @@
 				201E636128A848D900CD89D1 /* Spacing.swift in Sources */,
 				201E634428A847A300CD89D1 /* ContentView.swift in Sources */,
 				201E635D28A848D900CD89D1 /* Shadow.swift in Sources */,
+				20654F3828A93F8300F1699E /* FileDetailView.swift in Sources */,
+				20D73DA928A87914002FF4CA /* MenuView.swift in Sources */,
 				201E637A28A84A2E00CD89D1 /* Extensions.swift in Sources */,
 				201E635F28A848D900CD89D1 /* Opacity.swift in Sources */,
+				20654F3A28A963D900F1699E /* FileViewManager.swift in Sources */,
 				201E635B28A848D900CD89D1 /* Border.swift in Sources */,
 				201E634228A847A300CD89D1 /* TrecoProductSetupApp.swift in Sources */,
 				201E638128A8505400CD89D1 /* ServerManager.swift in Sources */,
@@ -547,6 +551,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = TrecoProductSetup/TrecoProductSetup.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -576,6 +581,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = TrecoProductSetup/TrecoProductSetup.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -780,7 +786,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		201E634D28A847A500CD89D1 /* Build configuration list for PBXNativeTarget "TrecoProductSetup" */ = {
+		201E634D28A847A500CD89D1 /* Build configuration list for PBXNativeTarget "ProductSetup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				201E634B28A847A500CD89D1 /* Debug */,

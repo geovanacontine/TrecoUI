@@ -40,8 +40,8 @@ public enum BorderRadius: String, Decodable {
 
 public extension View {
     func addBorder(radius: BorderRadius,
-                   width: BorderWidth = .thin,
-                   color: Colors = .neutralDarkPure) -> some View {
+                   width: BorderWidth = .none,
+                   color: Colors = .clear) -> some View {
         
         let roundedRect = RoundedRectangle(cornerRadius: radius.value)
         return clipShape(roundedRect).overlay(roundedRect.strokeBorder(color.color, lineWidth: width.value))
