@@ -2,7 +2,7 @@
 //  SDGenericView.swift
 //  TrecoUI
 //
-//  Created by Pedro Contine on 13/08/22.
+//  Created by Geovana Contine on 13/08/22.
 //
 
 import SwiftUI
@@ -40,14 +40,12 @@ struct SDGenericView: View {
                         }
                     } content: {
                         HStack {
-                            SpacerView(horizontal: .xs)
                             LazyVStack {
                                 SpacerView(vertical: .xs)
                                 ForEach(controller.view?.body ?? [], id: \.tag) { component in
                                     component.render()
                                 }
                             }
-                            SpacerView(horizontal: .xs)
                         }
                     }
                 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0149C55728AB016D00A51301 /* SDServiceCarouselComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0149C55628AB016D00A51301 /* SDServiceCarouselComponent.swift */; };
+		0149C55928AB094200A51301 /* SDSpacerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0149C55828AB094200A51301 /* SDSpacerComponent.swift */; };
+		015F374428AAF905005FB696 /* SDButtonRowComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015F374328AAF905005FB696 /* SDButtonRowComponent.swift */; };
 		2010062328A7DC390095E327 /* TokensManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2010062228A7DC390095E327 /* TokensManager.swift */; };
 		2010062528A7DD100095E327 /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2010062428A7DD100095E327 /* Border.swift */; };
 		2010062728A7DE190095E327 /* Opacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2010062628A7DE190095E327 /* Opacity.swift */; };
@@ -15,7 +18,7 @@
 		2010062D28A7DF3E0095E327 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2010062C28A7DF3E0095E327 /* Fonts.swift */; };
 		2010063328A7E3310095E327 /* tokens.json in Resources */ = {isa = PBXBuildFile; fileRef = 2010063228A7E3310095E327 /* tokens.json */; };
 		20132DFE28A7F8540072773E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20132DFD28A7F8540072773E /* Extensions.swift */; };
-		20132E0028A7FDB30072773E /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20132DFF28A7FDB30072773E /* RemoteImageView.swift */; };
+		20132E0028A7FDB30072773E /* SDRemoteImageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20132DFF28A7FDB30072773E /* SDRemoteImageComponent.swift */; };
 		20132E0328A804A60072773E /* SDGenericViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20132E0128A804A60072773E /* SDGenericViewController.swift */; };
 		20132E0428A804A60072773E /* SDGenericView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20132E0228A804A60072773E /* SDGenericView.swift */; };
 		20132E0B28A805D40072773E /* SDAnyComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20132E0628A805D40072773E /* SDAnyComponent.swift */; };
@@ -72,6 +75,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0149C55628AB016D00A51301 /* SDServiceCarouselComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDServiceCarouselComponent.swift; sourceTree = "<group>"; };
+		0149C55828AB094200A51301 /* SDSpacerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDSpacerComponent.swift; sourceTree = "<group>"; };
+		015F374328AAF905005FB696 /* SDButtonRowComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDButtonRowComponent.swift; sourceTree = "<group>"; };
 		2010062228A7DC390095E327 /* TokensManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokensManager.swift; sourceTree = "<group>"; };
 		2010062428A7DD100095E327 /* Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Border.swift; sourceTree = "<group>"; };
 		2010062628A7DE190095E327 /* Opacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opacity.swift; sourceTree = "<group>"; };
@@ -80,7 +86,7 @@
 		2010062C28A7DF3E0095E327 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		2010063228A7E3310095E327 /* tokens.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tokens.json; sourceTree = "<group>"; };
 		20132DFD28A7F8540072773E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		20132DFF28A7FDB30072773E /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
+		20132DFF28A7FDB30072773E /* SDRemoteImageComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDRemoteImageComponent.swift; sourceTree = "<group>"; };
 		20132E0128A804A60072773E /* SDGenericViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDGenericViewController.swift; sourceTree = "<group>"; };
 		20132E0228A804A60072773E /* SDGenericView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDGenericView.swift; sourceTree = "<group>"; };
 		20132E0628A805D40072773E /* SDAnyComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDAnyComponent.swift; sourceTree = "<group>"; };
@@ -332,7 +338,10 @@
 		202BEA9028A6F8D500633C64 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
-				20132DFF28A7FDB30072773E /* RemoteImageView.swift */,
+				20132DFF28A7FDB30072773E /* SDRemoteImageComponent.swift */,
+				015F374328AAF905005FB696 /* SDButtonRowComponent.swift */,
+				0149C55628AB016D00A51301 /* SDServiceCarouselComponent.swift */,
+				0149C55828AB094200A51301 /* SDSpacerComponent.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -512,9 +521,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				201E638628A8560800CD89D1 /* SDServerSettings.swift in Sources */,
-				20132E0028A7FDB30072773E /* RemoteImageView.swift in Sources */,
+				20132E0028A7FDB30072773E /* SDRemoteImageComponent.swift in Sources */,
+				0149C55728AB016D00A51301 /* SDServiceCarouselComponent.swift in Sources */,
 				2010062528A7DD100095E327 /* Border.swift in Sources */,
 				20132E2528A815450072773E /* SDStatusBarStyle.swift in Sources */,
+				015F374428AAF905005FB696 /* SDButtonRowComponent.swift in Sources */,
 				20132E0C28A805D40072773E /* SDView.swift in Sources */,
 				20132E1B28A80EF50072773E /* SDLocalViews.swift in Sources */,
 				20132E0F28A805D40072773E /* SDComponent.swift in Sources */,
@@ -527,6 +538,7 @@
 				20132E1428A807490072773E /* SDComponentType.swift in Sources */,
 				201E638C28A85CB300CD89D1 /* Task+Extensions.swift in Sources */,
 				2031D8FA28A7D6D30079F62B /* Colors.swift in Sources */,
+				0149C55928AB094200A51301 /* SDSpacerComponent.swift in Sources */,
 				2010062B28A7DEDA0095E327 /* Spacing.swift in Sources */,
 				20132DFE28A7F8540072773E /* Extensions.swift in Sources */,
 				20D101AD28A7EF940094A0F9 /* SceneDelegate.swift in Sources */,

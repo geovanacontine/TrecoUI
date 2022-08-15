@@ -2,7 +2,7 @@
 //  SettingsView.swift
 //  ProductSetup
 //
-//  Created by Pedro Contine on 13/08/22.
+//  Created by Geovana Contine on 13/08/22.
 //
 
 import SwiftUI
