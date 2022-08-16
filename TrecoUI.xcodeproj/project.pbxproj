@@ -10,6 +10,7 @@
 		0149C55728AB016D00A51301 /* SDServiceCarouselComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0149C55628AB016D00A51301 /* SDServiceCarouselComponent.swift */; };
 		0149C55928AB094200A51301 /* SDSpacerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0149C55828AB094200A51301 /* SDSpacerComponent.swift */; };
 		015F374428AAF905005FB696 /* SDButtonRowComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015F374328AAF905005FB696 /* SDButtonRowComponent.swift */; };
+		01FCEC3C28AC2C1700525445 /* SDSectionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FCEC3B28AC2C1700525445 /* SDSectionComponent.swift */; };
 		2010062328A7DC390095E327 /* TokensManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2010062228A7DC390095E327 /* TokensManager.swift */; };
 		2010062528A7DD100095E327 /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2010062428A7DD100095E327 /* Border.swift */; };
 		2010062728A7DE190095E327 /* Opacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2010062628A7DE190095E327 /* Opacity.swift */; };
@@ -78,6 +79,7 @@
 		0149C55628AB016D00A51301 /* SDServiceCarouselComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDServiceCarouselComponent.swift; sourceTree = "<group>"; };
 		0149C55828AB094200A51301 /* SDSpacerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDSpacerComponent.swift; sourceTree = "<group>"; };
 		015F374328AAF905005FB696 /* SDButtonRowComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDButtonRowComponent.swift; sourceTree = "<group>"; };
+		01FCEC3B28AC2C1700525445 /* SDSectionComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDSectionComponent.swift; sourceTree = "<group>"; };
 		2010062228A7DC390095E327 /* TokensManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokensManager.swift; sourceTree = "<group>"; };
 		2010062428A7DD100095E327 /* Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Border.swift; sourceTree = "<group>"; };
 		2010062628A7DE190095E327 /* Opacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opacity.swift; sourceTree = "<group>"; };
@@ -342,6 +344,7 @@
 				015F374328AAF905005FB696 /* SDButtonRowComponent.swift */,
 				0149C55628AB016D00A51301 /* SDServiceCarouselComponent.swift */,
 				0149C55828AB094200A51301 /* SDSpacerComponent.swift */,
+				01FCEC3B28AC2C1700525445 /* SDSectionComponent.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -525,6 +528,7 @@
 				0149C55728AB016D00A51301 /* SDServiceCarouselComponent.swift in Sources */,
 				2010062528A7DD100095E327 /* Border.swift in Sources */,
 				20132E2528A815450072773E /* SDStatusBarStyle.swift in Sources */,
+				01FCEC3C28AC2C1700525445 /* SDSectionComponent.swift in Sources */,
 				015F374428AAF905005FB696 /* SDButtonRowComponent.swift in Sources */,
 				20132E0C28A805D40072773E /* SDView.swift in Sources */,
 				20132E1B28A80EF50072773E /* SDLocalViews.swift in Sources */,
