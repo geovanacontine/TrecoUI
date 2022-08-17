@@ -27,7 +27,7 @@ struct SectionView: View {
                 .isVisible(data.hasSeparator == true)
             SpacerView(vertical: .sm)
             HStack {
-                SpacerView(horizontal: .sm)
+                SpacerView(horizontal: .xs)
                 VStack {
                     HStack {
                         Text(data.title ?? "")
@@ -56,7 +56,7 @@ struct SectionView: View {
                     }
                     .isVisible(data.accessory != nil)
                 }
-                SpacerView(horizontal: .sm)
+                SpacerView(horizontal: .xs)
             }
             
             VStack {

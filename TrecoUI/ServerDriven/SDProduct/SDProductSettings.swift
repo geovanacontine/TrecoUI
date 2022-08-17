@@ -32,15 +32,10 @@ final class SDProductSettings: SDProductSettingsProtocol {
     
     func setup() {
         TokensManager.shared.setTheme(fromJson: "tokens")
-        setupNavigationBar()
+        setupDefaultNavigationBar()
     }
     
-    private func setupNavigationBar() {
-        let manager = TokensManager.shared
-        let styleToken = manager.getValue("navigationBar-statusBarStyle") ?? "dark"
-        let backgroundToken = manager.getValue("navigationBar-backgroundColor") ?? "neutralLightPure"
-        let tintColorToken = manager.getValue("navigationBar-titleColor") ?? "neutralDarkPure"
-        
+    func setupNavigationBar(styleToken: String, backgroundToken: String, tintColorToken: String) {
         let barStyle = SDStatusBarStyle(rawValue: styleToken) ?? .light
         let backgroundColor = Colors.init(fromRawValue: backgroundToken).color
         let tintColor = Colors.init(fromRawValue: tintColorToken).color
@@ -53,5 +48,13 @@ final class SDProductSettings: SDProductSettingsProtocol {
         UINavigationBar.appearance().standardAppearance = appearance
         UINavigationBar.appearance().scrollEdgeAppearance = appearance
         UIApplication.shared.statusBarStyle = barStyle.systemStyle
+    }
+    
+    private func setupDefaultNavigationBar() {
+        let manager = TokensManager.shared
+        let styleToken = manager.getValue("navigationBar-statusBarStyle") ?? "dark"
+        let backgroundToken = manager.getValue("navigationBar-backgroundColor") ?? "neutralLightPure"
+        let tintColorToken = manager.getValue("navigationBar-titleColor") ?? "neutralDarkPure"
+        setupNavigationBar(styleToken: styleToken, backgroundToken: backgroundToken, tintColorToken: tintColorToken)
     }
 }

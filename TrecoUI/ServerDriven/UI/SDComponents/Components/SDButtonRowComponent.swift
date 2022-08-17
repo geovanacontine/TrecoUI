@@ -21,7 +21,7 @@ struct ButtonRowView: View {
     
     var body: some View {
         HStack {
-            SpacerView(horizontal: .sm)
+            SpacerView(horizontal: .xs)
             HStack {
                 Image(systemName: data.icon ?? "")
                 SpacerView(horizontal: .xs)
@@ -34,7 +34,10 @@ struct ButtonRowView: View {
             .padding()
             .background(Colors.neutralLight2.color)
             .addBorder(radius: .md)
-            SpacerView(horizontal: .sm)
+            .onTapGesture {
+                data.action?.action?.execute()
+            }
+            SpacerView(horizontal: .xs)
         }
         .background(Colors.neutralLightPure.color)
     }
@@ -45,6 +48,7 @@ extension ButtonRowView {
         let icon: String?
         let title: String?
         let subtitle: String?
+        let action: SDAnyAction?
     }
 }
 
@@ -52,6 +56,7 @@ struct ButtonRowView_Previews: PreviewProvider {
     static var previews: some View {
         ButtonRowView(data: .init(icon: "lanyardcard",
                                   title: "Meus cartões",
-                                  subtitle: "Conhecer"))
+                                  subtitle: "Conhecer",
+                                  action: nil))
     }
 }

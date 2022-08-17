@@ -25,7 +25,7 @@ struct ButtonView: View {
     
     var body: some View {
         HStack {
-            SpacerView(horizontal: .sm)
+            SpacerView(horizontal: .xs)
             HStack {
                 Spacer()
                 Image(systemName: data.icon ?? "")
@@ -40,7 +40,7 @@ struct ButtonView: View {
             .padding()
             .background(buttonStyle.backgroundColor.color)
             .addBorder(radius: .xl)
-            SpacerView(horizontal: .sm)
+            SpacerView(horizontal: .xs)
         }
         .background(Colors.neutralLightPure.color)
     }

@@ -22,7 +22,7 @@ struct ServiceCarouselView: View {
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack {
-                SpacerView(horizontal: .sm)
+                SpacerView(horizontal: .xs)
                 LazyHStack(spacing: Spacing.xs.value) {
                     ForEach(data.items ?? [], id: \.title) { item in
                         VStack {
@@ -38,7 +38,7 @@ struct ServiceCarouselView: View {
                         }
                     }
                 }
-                SpacerView(horizontal: .sm)
+                SpacerView(horizontal: .xs)
             }
         }
         .background(Colors.neutralLightPure.color)

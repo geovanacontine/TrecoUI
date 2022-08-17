@@ -7,16 +7,24 @@
 
 import SwiftUI
 
-enum NavigationTransitionStyle {
+enum NavigationTransitionStyle: String {
     case push
     case presentModally
     case presentFullscreen
+    
+    init(fromRawValue rawValue: String) {
+        self = NavigationTransitionStyle(rawValue: rawValue) ?? .push
+    }
 }
 
 class Coordinator {
+    
     static let shared = Coordinator()
-    private init() {}
     let navigationController = UINavigationController()
+    
+    private init() {
+        navigationController.navigationBar.tintColor = UIColor(Colors.neutralLightPure.color)
+    }
 }
 
 extension Coordinator {

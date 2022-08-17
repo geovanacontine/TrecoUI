@@ -49,6 +49,8 @@ struct SDGenericView: View {
                 }
             }
         }
+        .id(Color.red)
+        .accentColor(Colors.neutralLightPure.color)
         .navigationBarTitleDisplayMode(.inline)
         .navigationTitle("")
         .toolbar {

@@ -21,7 +21,7 @@ struct HeaderView: View {
     
     var body: some View {
         HStack {
-            SpacerView(horizontal: .sm)
+            SpacerView(horizontal: .xs)
             VStack(alignment: .leading) {
                 Text(data.title ?? "")
                     .textStyle(.heading2)
@@ -30,7 +30,7 @@ struct HeaderView: View {
                     .textStyle(.paragraph, color: Colors.neutralDark2.color)
             }
             Spacer()
-            SpacerView(horizontal: .sm)
+            SpacerView(horizontal: .xs)
         }
         .background(Colors.neutralLightPure.color)
     }

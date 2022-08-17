@@ -5,6 +5,7 @@
 //  Created by Geovana Contine on 13/08/22.
 //
 
+import SwiftUI
 import Combine
 
 final class SDGenericViewController: ObservableObject {
