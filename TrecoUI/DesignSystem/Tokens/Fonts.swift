@@ -63,9 +63,9 @@ public extension FontStyle {
         case .heading1:
             return .lg
         case .heading2:
-            return .md
-        case .heading3:
             return .sm
+        case .heading3:
+            return .xs
         case .heading4:
             return .xs
         case .paragraph:
@@ -84,7 +84,7 @@ public extension FontStyle {
         case .heading2:
             return .bold
         case .heading3:
-            return .semiBold
+            return .bold
         case .heading4:
             return .semiBold
         case .paragraph:

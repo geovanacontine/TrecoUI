@@ -14,6 +14,8 @@ enum SDComponentType: String, Decodable {
     case serviceCarousel = "SD_SERVICE_CAROUSEL_COMPONENT"
     case spacer = "SD_SPACER_COMPONENT"
     case section = "SD_SECTION_COMPONENT"
+    case button = "SD_BUTTON_COMPONENT"
+    case header = "SD_HEADER_COMPONENT"
 }
 
 extension SDComponentType {
@@ -29,6 +31,10 @@ extension SDComponentType {
             return SDSpacerComponent.self
         case .section:
             return SDSectionComponent.self
+        case .button:
+            return SDButtonComponent.self
+        case .header:
+            return SDHeaderComponent.self
         }
     }
 }

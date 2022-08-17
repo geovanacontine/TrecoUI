@@ -46,6 +46,15 @@ struct SectionView: View {
                         }
                     }
                     .isVisible(data.subtitle != nil)
+                    VStack {
+                        SpacerView(vertical: .xs)
+                        HStack {
+                            Text(data.accessory ?? "")
+                                .textStyle(.heading4)
+                            Spacer()
+                        }
+                    }
+                    .isVisible(data.accessory != nil)
                 }
                 SpacerView(horizontal: .sm)
             }
@@ -61,6 +70,7 @@ struct SectionView: View {
             .isVisible(data.components != nil)
             SpacerView(vertical: .sm)
         }
+        .background(Colors.neutralLightPure.color)
     }
 }
 
@@ -68,6 +78,7 @@ extension SectionView {
     struct Data: Decodable {
         let title: String?
         let subtitle: String?
+        let accessory: String?
         let hasDisclosure: Bool?
         let hasSeparator: Bool?
         let components: [SDAnyComponent]?
@@ -79,6 +90,7 @@ struct SectionView_Previews: PreviewProvider {
         SectionView(data: .init(
             title: "Title",
             subtitle: "Subtitle",
+            accessory: "Acessory",
             hasDisclosure: true,
             hasSeparator: true,
             components: nil)

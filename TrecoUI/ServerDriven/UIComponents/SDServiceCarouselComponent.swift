@@ -41,6 +41,7 @@ struct ServiceCarouselView: View {
                 SpacerView(horizontal: .sm)
             }
         }
+        .background(Colors.neutralLightPure.color)
     }
 }
 

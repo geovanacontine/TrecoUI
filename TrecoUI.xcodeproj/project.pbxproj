@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0124982128AD75D1001C2229 /* SDButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0124982028AD75D1001C2229 /* SDButtonComponent.swift */; };
+		0124982328AD798C001C2229 /* SDHeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0124982228AD798C001C2229 /* SDHeaderComponent.swift */; };
 		0149C55728AB016D00A51301 /* SDServiceCarouselComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0149C55628AB016D00A51301 /* SDServiceCarouselComponent.swift */; };
 		0149C55928AB094200A51301 /* SDSpacerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0149C55828AB094200A51301 /* SDSpacerComponent.swift */; };
 		015F374428AAF905005FB696 /* SDButtonRowComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015F374328AAF905005FB696 /* SDButtonRowComponent.swift */; };
@@ -76,6 +78,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0124982028AD75D1001C2229 /* SDButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDButtonComponent.swift; sourceTree = "<group>"; };
+		0124982228AD798C001C2229 /* SDHeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDHeaderComponent.swift; sourceTree = "<group>"; };
 		0149C55628AB016D00A51301 /* SDServiceCarouselComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDServiceCarouselComponent.swift; sourceTree = "<group>"; };
 		0149C55828AB094200A51301 /* SDSpacerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDSpacerComponent.swift; sourceTree = "<group>"; };
 		015F374328AAF905005FB696 /* SDButtonRowComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDButtonRowComponent.swift; sourceTree = "<group>"; };
@@ -109,7 +113,7 @@
 		20132E2A28A81BBB0072773E /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		20132E2B28A81BBB0072773E /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		20132E2C28A81BBB0072773E /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
-		201E633F28A847A300CD89D1 /* ProductSetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductSetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		201E633F28A847A300CD89D1 /* Product Setup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Product Setup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		201E634128A847A300CD89D1 /* TrecoProductSetupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrecoProductSetupApp.swift; sourceTree = "<group>"; };
 		201E634328A847A300CD89D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		201E634528A847A500CD89D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -304,7 +308,7 @@
 			isa = PBXGroup;
 			children = (
 				202BEA7E28A6F7C000633C64 /* TrecoUI.app */,
-				201E633F28A847A300CD89D1 /* ProductSetup.app */,
+				201E633F28A847A300CD89D1 /* Product Setup.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -342,6 +346,8 @@
 			children = (
 				20132DFF28A7FDB30072773E /* SDRemoteImageComponent.swift */,
 				015F374328AAF905005FB696 /* SDButtonRowComponent.swift */,
+				0124982028AD75D1001C2229 /* SDButtonComponent.swift */,
+				0124982228AD798C001C2229 /* SDHeaderComponent.swift */,
 				0149C55628AB016D00A51301 /* SDServiceCarouselComponent.swift */,
 				0149C55828AB094200A51301 /* SDSpacerComponent.swift */,
 				01FCEC3B28AC2C1700525445 /* SDSectionComponent.swift */,
@@ -381,9 +387,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		201E633E28A847A300CD89D1 /* ProductSetup */ = {
+		201E633E28A847A300CD89D1 /* Product Setup */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 201E634D28A847A500CD89D1 /* Build configuration list for PBXNativeTarget "ProductSetup" */;
+			buildConfigurationList = 201E634D28A847A500CD89D1 /* Build configuration list for PBXNativeTarget "Product Setup" */;
 			buildPhases = (
 				201E633B28A847A300CD89D1 /* Sources */,
 				201E633C28A847A300CD89D1 /* Frameworks */,
@@ -393,12 +399,12 @@
 			);
 			dependencies = (
 			);
-			name = ProductSetup;
+			name = "Product Setup";
 			packageProductDependencies = (
 				201E637E28A84C7800CD89D1 /* Swifter */,
 			);
 			productName = TrecoProductSetup;
-			productReference = 201E633F28A847A300CD89D1 /* ProductSetup.app */;
+			productReference = 201E633F28A847A300CD89D1 /* Product Setup.app */;
 			productType = "com.apple.product-type.application";
 		};
 		202BEA7D28A6F7C000633C64 /* TrecoUI */ = {
@@ -457,7 +463,7 @@
 			projectRoot = "";
 			targets = (
 				202BEA7D28A6F7C000633C64 /* TrecoUI */,
-				201E633E28A847A300CD89D1 /* ProductSetup */,
+				201E633E28A847A300CD89D1 /* Product Setup */,
 			);
 		};
 /* End PBXProject section */
@@ -524,6 +530,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				201E638628A8560800CD89D1 /* SDServerSettings.swift in Sources */,
+				0124982128AD75D1001C2229 /* SDButtonComponent.swift in Sources */,
 				20132E0028A7FDB30072773E /* SDRemoteImageComponent.swift in Sources */,
 				0149C55728AB016D00A51301 /* SDServiceCarouselComponent.swift in Sources */,
 				2010062528A7DD100095E327 /* Border.swift in Sources */,
@@ -541,6 +548,7 @@
 				2010062728A7DE190095E327 /* Opacity.swift in Sources */,
 				20132E1428A807490072773E /* SDComponentType.swift in Sources */,
 				201E638C28A85CB300CD89D1 /* Task+Extensions.swift in Sources */,
+				0124982328AD798C001C2229 /* SDHeaderComponent.swift in Sources */,
 				2031D8FA28A7D6D30079F62B /* Colors.swift in Sources */,
 				0149C55928AB094200A51301 /* SDSpacerComponent.swift in Sources */,
 				2010062B28A7DEDA0095E327 /* Spacing.swift in Sources */,
@@ -802,7 +810,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		201E634D28A847A500CD89D1 /* Build configuration list for PBXNativeTarget "ProductSetup" */ = {
+		201E634D28A847A500CD89D1 /* Build configuration list for PBXNativeTarget "Product Setup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				201E634B28A847A500CD89D1 /* Debug */,

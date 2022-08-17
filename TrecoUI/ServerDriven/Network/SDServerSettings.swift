@@ -12,6 +12,6 @@ struct SDServerSettings {
     
     static var baseEndpoint: String {
         let portString = String(port)
-        return "http://192.168.0.6:\(portString)/view/"
+        return "http://localhost:\(portString)/view/"
     }
 }

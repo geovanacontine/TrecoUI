@@ -39,14 +39,12 @@ struct SDGenericView: View {
                             view.hidesWhenStopped = false
                         }
                     } content: {
-                        HStack {
-                            LazyVStack {
-                                SpacerView(vertical: .xs)
-                                ForEach(controller.view?.body ?? [], id: \.tag) { component in
-                                    component.render()
-                                }
+                        LazyVStack {
+                            ForEach(controller.view?.body ?? [], id: \.tag) { component in
+                                component.render()
                             }
                         }
+                        .background(Colors.neutralLightPure.color)
                     }
                 }
             }

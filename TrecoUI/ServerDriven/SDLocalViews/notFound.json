@@ -1,6 +1,38 @@
 {
     "header": {
-        "title": "404"
+        "title": ""
     },
-    "body": []
+    "body": [
+        {
+            "type" : "SD_SPACER_COMPONENT",
+            "tag" : "spacer1",
+            "data" : {
+                "vertical" : "lg"
+            }
+        },
+        {
+            "type": "SD_HEADER_COMPONENT",
+            "tag": "header",
+            "data": {
+                "title": "Ocorreu um erro",
+                "subtitle": "Não foi possível carregar as informações. Verifique sua conexão e tente novamente",
+            }
+        },
+        {
+            "type" : "SD_SPACER_COMPONENT",
+            "tag" : "spacer2",
+            "data" : {
+                "vertical" : "lg"
+            }
+        },
+        {
+            "type": "SD_BUTTON_COMPONENT",
+            "tag": "tryAgainButton",
+            "data": {
+                "icon": "arrow.clockwise",
+                "title": "Atualizar",
+                "style": "secondary"
+            }
+        }
+    ]
 }

@@ -29,6 +29,7 @@ public enum BorderRadius: String, Decodable {
     case sm
     case md
     case lg
+    case xl
     
     var value: CGFloat {
         let borderRadiusToken = "border-radius-" + rawValue

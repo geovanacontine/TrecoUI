@@ -36,6 +36,7 @@ struct ButtonRowView: View {
             .addBorder(radius: .md)
             SpacerView(horizontal: .sm)
         }
+        .background(Colors.neutralLightPure.color)
     }
 }
 
