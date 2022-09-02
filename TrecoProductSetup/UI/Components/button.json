@@ -1,0 +1,9 @@
+{
+    "type": "SD_BUTTON_COMPONENT",
+    "tag": "identifier",
+    "data": {
+        "icon": "arrow.clockwise",
+        "title": "Title",
+        "style": "primary"
+    }
+}

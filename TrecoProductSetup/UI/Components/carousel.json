@@ -1,0 +1,29 @@
+{
+  "type": "SD_SERVICE_CAROUSEL_COMPONENT",
+  "tag": "serviceCarousel",
+  "data": {
+    "items": [
+      {
+        "title": "Title",
+        "icon": "lanyardcard",
+        "action": {
+          "type": "SD_NAVIGATION_ACTION",
+          "data": {
+            "viewName": "viewName"
+          }
+        }
+      },
+      {
+        "title": "Title",
+        "icon": "lanyardcard",
+        "action": {
+          "type": "SD_NAVIGATION_ACTION",
+          "data": {
+            "viewName": "viewName"
+          }
+        }
+      }
+    ]
+  }
+}
+

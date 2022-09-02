@@ -1,0 +1,8 @@
+{
+  "type": "SD_HEADER_COMPONENT",
+  "tag": "identifier",
+  "data": {
+    "title": "Title",
+    "subtitle": "Subtitle"
+  }
+}

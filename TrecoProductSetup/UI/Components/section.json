@@ -1,0 +1,12 @@
+{
+  "type": "SD_SECTION_COMPONENT",
+  "tag": "identifier",
+  "data": {
+    "components": [],
+    "title": "Title",
+    "subtitle": "Subtitle",
+    "accessory": "Accessory",
+    "hasSeparator": true,
+    "hasDisclosure": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "SD_BUTTON_ROW_COMPONENT",
+  "tag": "identifier",
+  "data": {
+    "title": "Title",
+    "icon": "lanyardcard",
+    "subtitle": "Subtitle",
+    "action": null
+  }
+}

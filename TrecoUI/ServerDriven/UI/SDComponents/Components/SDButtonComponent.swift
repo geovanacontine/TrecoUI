@@ -40,6 +40,9 @@ struct ButtonView: View {
             .padding()
             .background(buttonStyle.backgroundColor.color)
             .addBorder(radius: .xl)
+            .onTapGesture {
+                data.action?.action?.execute()
+            }
             SpacerView(horizontal: .xs)
         }
         .background(Colors.neutralLightPure.color)
@@ -51,6 +54,7 @@ extension ButtonView {
         let icon: String?
         let title: String?
         let style: String?
+        let action: SDAnyAction?
     }
     
     enum ButtonStyle: String {
@@ -91,13 +95,16 @@ struct ButtonView_Previews: PreviewProvider {
         VStack {
             ButtonView(data: .init(icon: "arrow.clockwise",
                                    title: "Title",
-                                   style: "primary"))
+                                   style: "primary",
+                                   action: nil))
             ButtonView(data: .init(icon: "arrow.clockwise",
                                    title: "Title",
-                                   style: "secondary"))
+                                   style: "secondary",
+                                   action: nil))
             ButtonView(data: .init(icon: nil,
                                    title: "Title",
-                                   style: "tertiary"))
+                                   style: "tertiary",
+                                   action: nil))
         }
     }
 }

@@ -36,6 +36,9 @@ struct ServiceCarouselView: View {
                             Text(item.title ?? "")
                                 .textStyle(.description, color: Colors.neutralDarkPure.color)
                         }
+                        .onTapGesture {
+                            item.action?.action?.execute()
+                        }
                     }
                 }
                 SpacerView(horizontal: .xs)
@@ -53,15 +56,16 @@ extension ServiceCarouselView {
     struct ServiceItem: Decodable {
         let icon: String?
         let title: String?
+        let action: SDAnyAction?
     }
 }
 
 struct ServiceCarouselView_Previews: PreviewProvider {
     static var previews: some View {
         ServiceCarouselView(data: .init(items: [
-            .init(icon: "lanyardcard", title: "Cartão1"),
-            .init(icon: "lanyardcard", title: "Cartão2"),
-            .init(icon: "lanyardcard", title: "Cartão3")
+            .init(icon: "lanyardcard", title: "Cartão1", action: nil),
+            .init(icon: "lanyardcard", title: "Cartão2", action: nil),
+            .init(icon: "lanyardcard", title: "Cartão3", action: nil)
         ]))
     }
 }

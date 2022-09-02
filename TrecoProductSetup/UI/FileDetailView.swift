@@ -6,10 +6,12 @@
 //
 
 import SwiftUI
+import CodeEditor
 
 struct FileDetailView: View {
     
     @EnvironmentObject var fileManager: FileViewManager
+    
     @State private var shouldShowDeleteAlert = false
     @State private var shouldShowSaveAlert = false
     @State private var name: String = ""
@@ -26,7 +28,7 @@ struct FileDetailView: View {
     var body: some View {
         VStack {
             TextField("Name", text: $name)
-            TextEditor(text: $text)
+            CodeEditor(source: $text, language: .json, theme: .atelierSavannaDark, flags: [.selectable, .editable, .smartIndent])
         }
         .padding()
         .toolbar {
@@ -58,7 +60,20 @@ struct FileDetailView: View {
         }
         .onAppear {
             name = viewName
-            text = fileManager.loadJsonText(forView: viewName) ?? ""
+            text = fileManager.loadJsonText(forView: viewName) ?? getEmptyViewJson()
         }
+    }
+    
+    private func getEmptyViewJson() -> String {
+        """
+        {
+          "header" : {
+            "title" : "Title"
+          },
+          "body" : [
+            
+          ]
+        }
+        """
     }
 }

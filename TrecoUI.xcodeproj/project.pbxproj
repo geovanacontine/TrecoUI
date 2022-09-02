@@ -16,6 +16,15 @@
 		0149C55728AB016D00A51301 /* SDServiceCarouselComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0149C55628AB016D00A51301 /* SDServiceCarouselComponent.swift */; };
 		0149C55928AB094200A51301 /* SDSpacerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0149C55828AB094200A51301 /* SDSpacerComponent.swift */; };
 		015F374428AAF905005FB696 /* SDButtonRowComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015F374328AAF905005FB696 /* SDButtonRowComponent.swift */; };
+		01C2999128B56879009DEC87 /* CodeEditor in Frameworks */ = {isa = PBXBuildFile; productRef = 01C2999028B56879009DEC87 /* CodeEditor */; };
+		01CD146028C2451E00A48693 /* ComponentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CD145F28C2451E00A48693 /* ComponentListView.swift */; };
+		01E779E528C262B30069D92A /* ComponentDetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E779E428C262B30069D92A /* ComponentDetalView.swift */; };
+		01E779E928C2634E0069D92A /* buttonRow.json in Resources */ = {isa = PBXBuildFile; fileRef = 01E779E828C2634E0069D92A /* buttonRow.json */; };
+		01E779EB28C266910069D92A /* button.json in Resources */ = {isa = PBXBuildFile; fileRef = 01E779EA28C266910069D92A /* button.json */; };
+		01E779ED28C267E40069D92A /* header.json in Resources */ = {isa = PBXBuildFile; fileRef = 01E779EC28C267E40069D92A /* header.json */; };
+		01E779EF28C268420069D92A /* carousel.json in Resources */ = {isa = PBXBuildFile; fileRef = 01E779EE28C268420069D92A /* carousel.json */; };
+		01E779F128C268EC0069D92A /* spacer.json in Resources */ = {isa = PBXBuildFile; fileRef = 01E779F028C268EC0069D92A /* spacer.json */; };
+		01E779F328C269350069D92A /* section.json in Resources */ = {isa = PBXBuildFile; fileRef = 01E779F228C269350069D92A /* section.json */; };
 		01FCEC3C28AC2C1700525445 /* SDSectionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FCEC3B28AC2C1700525445 /* SDSectionComponent.swift */; };
 		2010062328A7DC390095E327 /* TokensManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2010062228A7DC390095E327 /* TokensManager.swift */; };
 		2010062528A7DD100095E327 /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2010062428A7DD100095E327 /* Border.swift */; };
@@ -90,6 +99,14 @@
 		0149C55628AB016D00A51301 /* SDServiceCarouselComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDServiceCarouselComponent.swift; sourceTree = "<group>"; };
 		0149C55828AB094200A51301 /* SDSpacerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDSpacerComponent.swift; sourceTree = "<group>"; };
 		015F374328AAF905005FB696 /* SDButtonRowComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDButtonRowComponent.swift; sourceTree = "<group>"; };
+		01CD145F28C2451E00A48693 /* ComponentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentListView.swift; sourceTree = "<group>"; };
+		01E779E428C262B30069D92A /* ComponentDetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentDetalView.swift; sourceTree = "<group>"; };
+		01E779E828C2634E0069D92A /* buttonRow.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = buttonRow.json; sourceTree = "<group>"; };
+		01E779EA28C266910069D92A /* button.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = button.json; sourceTree = "<group>"; };
+		01E779EC28C267E40069D92A /* header.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = header.json; sourceTree = "<group>"; };
+		01E779EE28C268420069D92A /* carousel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = carousel.json; sourceTree = "<group>"; };
+		01E779F028C268EC0069D92A /* spacer.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = spacer.json; sourceTree = "<group>"; };
+		01E779F228C269350069D92A /* section.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = section.json; sourceTree = "<group>"; };
 		01FCEC3B28AC2C1700525445 /* SDSectionComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDSectionComponent.swift; sourceTree = "<group>"; };
 		2010062228A7DC390095E327 /* TokensManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokensManager.swift; sourceTree = "<group>"; };
 		2010062428A7DD100095E327 /* Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Border.swift; sourceTree = "<group>"; };
@@ -147,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01C2999128B56879009DEC87 /* CodeEditor in Frameworks */,
 				201E637F28A84C7800CD89D1 /* Swifter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +239,19 @@
 				0124982628AD7E98001C2229 /* SDActions */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		01E779E728C263310069D92A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				01E779E828C2634E0069D92A /* buttonRow.json */,
+				01E779EA28C266910069D92A /* button.json */,
+				01E779EC28C267E40069D92A /* header.json */,
+				01E779EE28C268420069D92A /* carousel.json */,
+				01E779F028C268EC0069D92A /* spacer.json */,
+				01E779F228C269350069D92A /* section.json */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		2010062F28A7E08A0095E327 /* Fonts */ = {
@@ -345,9 +376,12 @@
 		201E638F28A8608A00CD89D1 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				01E779E728C263310069D92A /* Components */,
 				201E634328A847A300CD89D1 /* ContentView.swift */,
 				20D73DA828A87914002FF4CA /* MenuView.swift */,
 				20654F3728A93F8300F1699E /* FileDetailView.swift */,
+				01CD145F28C2451E00A48693 /* ComponentListView.swift */,
+				01E779E428C262B30069D92A /* ComponentDetalView.swift */,
 				20D73DAA28A87D29002FF4CA /* SettingsView.swift */,
 			);
 			path = UI;
@@ -453,6 +487,7 @@
 			name = "Product Setup";
 			packageProductDependencies = (
 				201E637E28A84C7800CD89D1 /* Swifter */,
+				01C2999028B56879009DEC87 /* CodeEditor */,
 			);
 			productName = TrecoProductSetup;
 			productReference = 201E633F28A847A300CD89D1 /* Product Setup.app */;
@@ -508,6 +543,7 @@
 			packageReferences = (
 				201E637D28A84C7800CD89D1 /* XCRemoteSwiftPackageReference "swifter" */,
 				201E638828A85A7100CD89D1 /* XCRemoteSwiftPackageReference "swiftui-pull-to-refresh" */,
+				01C2998F28B56879009DEC87 /* XCRemoteSwiftPackageReference "CodeEditor" */,
 			);
 			productRefGroup = 202BEA7F28A6F7C000633C64 /* Products */;
 			projectDirPath = "";
@@ -524,12 +560,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01E779F328C269350069D92A /* section.json in Resources */,
+				01E779EF28C268420069D92A /* carousel.json in Resources */,
 				201E636428A848DC00CD89D1 /* Montserrat-Light.ttf in Resources */,
 				201E636228A848DC00CD89D1 /* Montserrat-Regular.ttf in Resources */,
 				201E636528A848DC00CD89D1 /* Montserrat-Bold.ttf in Resources */,
 				201E634928A847A500CD89D1 /* Preview Assets.xcassets in Resources */,
 				201E636328A848DC00CD89D1 /* Montserrat-SemiBold.ttf in Resources */,
+				01E779EB28C266910069D92A /* button.json in Resources */,
 				201E634628A847A500CD89D1 /* Assets.xcassets in Resources */,
+				01E779E928C2634E0069D92A /* buttonRow.json in Resources */,
+				01E779F128C268EC0069D92A /* spacer.json in Resources */,
+				01E779ED28C267E40069D92A /* header.json in Resources */,
 				201E638E28A85DDB00CD89D1 /* tokens.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -563,10 +605,12 @@
 				201E636128A848D900CD89D1 /* Spacing.swift in Sources */,
 				201E634428A847A300CD89D1 /* ContentView.swift in Sources */,
 				201E635D28A848D900CD89D1 /* Shadow.swift in Sources */,
+				01E779E528C262B30069D92A /* ComponentDetalView.swift in Sources */,
 				20654F3828A93F8300F1699E /* FileDetailView.swift in Sources */,
 				20D73DA928A87914002FF4CA /* MenuView.swift in Sources */,
 				201E637A28A84A2E00CD89D1 /* Extensions.swift in Sources */,
 				201E635F28A848D900CD89D1 /* Opacity.swift in Sources */,
+				01CD146028C2451E00A48693 /* ComponentListView.swift in Sources */,
 				20654F3A28A963D900F1699E /* FileViewManager.swift in Sources */,
 				201E635B28A848D900CD89D1 /* Border.swift in Sources */,
 				201E634228A847A300CD89D1 /* TrecoProductSetupApp.swift in Sources */,
@@ -894,6 +938,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		01C2998F28B56879009DEC87 /* XCRemoteSwiftPackageReference "CodeEditor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ZeeZide/CodeEditor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		201E637D28A84C7800CD89D1 /* XCRemoteSwiftPackageReference "swifter" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/httpswift/swifter";
@@ -913,6 +965,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		01C2999028B56879009DEC87 /* CodeEditor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01C2998F28B56879009DEC87 /* XCRemoteSwiftPackageReference "CodeEditor" */;
+			productName = CodeEditor;
+		};
 		201E637E28A84C7800CD89D1 /* Swifter */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 201E637D28A84C7800CD89D1 /* XCRemoteSwiftPackageReference "swifter" */;
