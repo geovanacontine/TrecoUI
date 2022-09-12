@@ -26,17 +26,8 @@ struct MenuView: View {
             }
             
             Section(header: Text("Add")) {
-                NavigationLink(destination: Text("...")) {
-                    Label("New Theme", systemImage: "plus.circle")
-                }
                 NavigationLink(destination: FileDetailView(viewName: "viewName")) {
                     Label("New View", systemImage: "plus.circle")
-                }
-            }
-            
-            Section(header: Text("Themes")) {
-                NavigationLink(destination: Text("...")) {
-                    Label("Nubank", systemImage: "paintbrush")
                 }
             }
             

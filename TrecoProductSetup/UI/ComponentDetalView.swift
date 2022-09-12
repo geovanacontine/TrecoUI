@@ -21,6 +21,7 @@ struct ComponentDetailView: View {
     var body: some View {
         VStack {
             Image(name)
+                .padding()
             CodeEditor(
                 source: source,
                 language: .json,
